@@ -3,6 +3,7 @@ body {
     padding:0;
     color: #1a1a1c;
     background-color: #474E68;
+    font-family: "Noto Sans JP", "Inter", sans-serif;
 }
 
 #main {
@@ -49,12 +50,10 @@ a:visited {
 #name{
     margin:160px 0 40px 0 ;
     color: #474E68;
-    font-size: 26px;
-    font-family: "Roboto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    letter-spacing: 0.06em;
+    font-size: 2rem;
+    font-family: "Inter", "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 
@@ -65,10 +64,8 @@ a:visited {
 .section{
     width:900px;
     margin: 0 auto;
-    font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Noto Sans JP", "Inter", sans-serif;
+    font-weight: 400;
     line-height:1.8em;
 }
 
@@ -76,10 +73,8 @@ a:visited {
 h1 {
     color:#50577A;
     font-size: 1.7em;
-    font-family: "Cormorant Upright", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Inter", "Noto Sans JP", sans-serif;
+    font-weight: 600;
     letter-spacing:0.02em;
 }
 
