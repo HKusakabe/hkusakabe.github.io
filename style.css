@@ -153,6 +153,7 @@ embed {
     background-color:#E3F4F4;
     transition: background-color .1s linear;
 }
+
 .news {
   width: 900px;
   margin: 0 auto;
@@ -160,18 +161,18 @@ embed {
 
 .news-item {
   display: flex;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  margin-bottom: 24px;
 }
 
 .news-item .date {
-  width: 140px;
+  width: 120px;
   flex-shrink: 0;
   font-weight: 600;
-  color: #444;
+  color: #666;
 }
 
 .news-item .content {
   flex: 1;
   line-height: 1.7;
 }
-
