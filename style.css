@@ -153,3 +153,25 @@ embed {
     background-color:#E3F4F4;
     transition: background-color .1s linear;
 }
+.news {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.news-item .date {
+  width: 140px;
+  flex-shrink: 0;
+  font-weight: 600;
+  color: #444;
+}
+
+.news-item .content {
+  flex: 1;
+  line-height: 1.7;
+}
+
